@@ -1,0 +1,154 @@
+/************************Tag Styling************************/
+
+body {
+
+    margin: 0;
+    text-align: center;
+
+
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.6rem;
+    margin: 50px auto 0 auto;
+
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 2.4rem;
+    font-weight: normal;
+    margin: 20px auto auto auto;
+
+}
+
+h3 {
+    font-family: 'Single Day', cursive;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Single Day', cursive;
+    margin: 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+}
+
+p {
+    color: #40514E;
+    font-family: 'Single Day', cursive;
+    line-height: 2;
+}
+
+hr {
+    margin: 80px auto;
+    width: 5%;
+    border-style: dotted none none;
+    border-width: 10px;
+    border-color: rgb(182, 165, 165);
+}
+
+/************************class Styling************************/
+.top-container {
+
+    background-color: #EAF6F6;
+    position: relative;
+    padding: 50px;
+
+
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+}
+
+.middle-container {}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-img1 {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-img2 {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.bottom-container {
+  
+    background-color: #66BFBF;
+    padding: 50px 0 20px 0;
+    margin-top: 60px;
+   
+}
+
+.copyright{
+    color: #EAF6F6;
+    padding: 20px 0px;
+    font-size: 0.75rem;
+}
+
+
+.btn {
+    background-color: #11999e;
+    -webkit-border-top-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-left-radius: 10px;
+    text-indent: 0;
+    border: 1px solid #18ab29;
+    display: inline-block;
+    color: #ffffff;
+    font-family: 'Single Day', cursive;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    height: 44px;
+    line-height: 44px;
+    width: 142px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 0px 0px #2f6627;
+}
+
+.btn:hover {
+    background-color: #29b5ba;
+}
+
+
+
+    /************************ID Styling************************/
+
+    #cloud2 {
+        position: absolute;
+    }
+
+    #cloud1 {
+        position: absolute;
+        right: 400px;
+        top: 10px;
+    }
