@@ -35,7 +35,8 @@ a {
     margin: 20px;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: #EAF6F6;
 }
 
@@ -91,14 +92,14 @@ hr {
 }
 
 .bottom-container {
-  
+
     background-color: #66BFBF;
     padding: 50px 0 20px 0;
     margin-top: 60px;
-   
+
 }
 
-.copyright{
+.copyright {
     color: #EAF6F6;
     padding: 20px 0px;
     font-size: 0.75rem;
@@ -141,17 +142,20 @@ hr {
 
 
 
-    /************************ID Styling************************/
+/************************ID Styling************************/
 
-    #cloud2 {
-        position: absolute;
-    }
+#cloud2 {
+    position: absolute;
+}
 
-    #cloud1 {
-        position: absolute;
-        right: 400px;
-        top: 10px;
-    }
-    #mountain{
-        width: 45%;
-    }
+#cloud1 {
+    position: absolute;
+    right: 400px;
+    top: 10px;
+}
+
+#mountain {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
